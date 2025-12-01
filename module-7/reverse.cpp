@@ -21,7 +21,7 @@ int main()
         cin >> array[i].name >> array[i].roll >> array[i].roll;
     }
 
-    for (int i = 0; i < objNum; i++)
+    for (int i = objNum-1; 0 <= i; i--)
     {
         cout << array[i].name << " " << array[i].roll << " " << array[i].marks << endl;
     }
